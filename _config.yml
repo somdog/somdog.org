@@ -4,7 +4,7 @@ email: info@somdo.org
 description: > # this means to ignore newlines until "baseurl:"
   Supporting the canine community
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://www.somdog.org" # the base hostname & protocol for your site
+url: "https://www.somdog.org" # the base hostname & protocol for your site
 twitter_username: somdog
 
 # Build settings
