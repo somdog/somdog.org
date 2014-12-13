@@ -24,6 +24,7 @@ body.homepage {
         display: flex;
         align-items: center;
         padding: 0 12px;
+        flex-grow: 1;
 
         a {
           display: block;
@@ -34,7 +35,28 @@ body.homepage {
           font-weight: bold;
         }
       }
+
+      .right {
+        justify-content: flex-end;
+
+        a {
+          font-size: 22px;
+        }
+      }
     }
+  }
+
+  .logo {
+    width: 155px;
+    height: 59px;
+    position: relative;
+    top: 55px;
+    left: 50%;
+    margin-left: -77.5px;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    background: url('/images/logo.png');
   }
 
   .hero {
@@ -43,6 +65,7 @@ body.homepage {
     background: #1c1f22;
     z-index: 1;
     color: white;
+    min-height: 620px;
 
     .photo {
       z-index: -1;

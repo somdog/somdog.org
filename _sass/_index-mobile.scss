@@ -1,6 +1,8 @@
-@media (max-width: 700px) {
+@media (max-width: 699px) {
   body.homepage {
     .hero {
+      min-height: 800px;
+      
       .cta-wrapper {
         align-content: center;
 
