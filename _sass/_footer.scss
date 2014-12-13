@@ -1,0 +1,18 @@
+body > footer {
+  background: #40526B;
+  color: white;
+  font-family: 'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif;
+  min-height: 300px;
+
+  div {
+    @include outer-container;
+    margin: 0 auto;
+  }
+
+  small {
+    font-size: 0.75rem;
+    opacity: 0.75;
+    display: block;
+    line-height: 1rem;
+  }
+}

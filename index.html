@@ -1,23 +1,58 @@
 ---
-layout: default
+layout: index
 ---
 
-<div class="home">
-
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
+<div class="nav-wrapper">
+  <nav>
+    <div class="left">
+      <a href="">Membership</a>
+      <a href="">Sponsors</a>
+      <a href="">Events</a>
+      <a href="">About</a>
+    </div>
+    <div class="right">
+    </div>
+  </nav>
 </div>
+
+<div class="hero">
+  <div class="photo"></div>
+
+  <div class="cta-wrapper">
+    <div class="cta-container">
+      <section>
+        <h1>Getting <strong>Involved</strong></h1>
+        <h2>Support som|dog</h2>
+        <p>som|dog is a volunteer-driven organization supported by members of the community. Your financial support allows us to make Somerville more dog friendly!</p>
+        <button class="donate" data-ct-checkout="somdog.winter-fundraiser">Make a donation</button>
+        <p><small>som|dog is <a href="http://apps.irs.gov/app/eos/pub78Search.do?ein1=72-1600654&names=&city=&state=All...&country=US&deductibility=all&dispatchMethod=searchCharities&submitName=Search">registered 501(c)3</a> organization.</small></p>
+      </section>
+    </div>
+    <div class="cta-container">
+      <section>
+        <h1>Community <strong>Events</strong></h1>
+        <h2>Upcoming somg|dog events</h2>
+        <p>Stay tuned for news about our next event!</p>
+        <h1>Staying <strong>In Touch</strong></h1>
+        <form action="http://visitor.r20.constantcontact.com/d.jsp" method="post" name="ccoptin" target="_blank" _lpchecked="1" class="mailing-list">
+          <input name="ea" type="text" placeholder="you@example.com">
+          <input name="go" type="submit" value="Join">
+          <input name="llr" type="hidden" value="5myot6dab">
+          <input name="m" type="hidden" value="1103726338462">
+          <input name="p" type="hidden" value="oi">
+        </form>
+        <p>Join our mailing list</p>
+      </section>
+    </div>
+  </div>
+</div>
+
+<section>
+  <h1>What is som|dog all about?</h1>
+  <h2>Change</h2>
+  <p>Since the organization’s inception in 2004, som|dog has been instrumental in bringing three dog parks to the and advocating for off-leash recreation at surrounding DCR trails. The nonprofit was built as a grassroots effort to create positive change for Somerville's residents and canine companions, and while it remains headquartered and active in Somerville, the organization has expanded its efforts to the surrounding communities and the Greater Boston Area.</p>
+  <h2>Outreach</h2>
+  <p>som|dog fosters relationships with officials, and and follows news trends and legislation as they relate to dog ownership and effect city and state laws. As a 501(c)3, all contributions are tax deductible under 170 of the IRS code. This offers the organization the ability to solicit grants and donations to help bring free clinics, improve and maintain existing dog parks, and bring outreach to our dog loving community.</p>
+  <h2>Education</h2>
+  <p>som|dog events focus on bringing healthy and unique opportunities to dog owners and dog lovers of every kind. som|dog follows the principle of Least Restrictive Behavior Intervention (LRBI), which also sums up our local trainers methodology, as we bring behaviorists and experts along with their best practices to both our events and free education clinics.</p>
+</section>
