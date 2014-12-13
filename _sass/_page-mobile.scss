@@ -1,0 +1,11 @@
+@media (max-width: 699px) {
+  body.page {
+    .nav-wrapper {
+      nav {
+        .right {
+          display: none;
+        }
+      }
+    }
+  }
+}

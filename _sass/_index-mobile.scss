@@ -1,8 +1,16 @@
 @media (max-width: 699px) {
   body.homepage {
+    .nav-wrapper {
+      nav {
+        .right {
+          display: none;
+        }
+      }
+    }
+
     .hero {
       min-height: 800px;
-      
+
       .cta-wrapper {
         align-content: center;
 
