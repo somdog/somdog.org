@@ -5,6 +5,10 @@
         .right {
           display: none;
         }
+
+        a[href="/#about"] {
+          display: none;
+        }
       }
     }
 
@@ -34,6 +38,14 @@
           }
         }
       }
+    }
+  }
+}
+
+@media (max-width: 340px) {
+  body.homepage {
+    .hero {
+      min-height: 900px;
     }
   }
 }
