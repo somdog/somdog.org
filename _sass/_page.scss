@@ -11,16 +11,16 @@ body.page {
       max-width: 1150px;
       margin: 0 auto;
       height: 100%;
-      display: flex;
-      align-items: stretch;
+      @include display(flex);
+      @include align-items(stretch);
       color: black;
 
       .left,
       .right {
-        display: flex;
-        align-items: center;
+        @include display(flex);
+        @include align-items(center);
         padding: 0 12px;
-        flex-grow: 1;
+        @include flex-grow(1);
 
         a {
           display: block;
@@ -33,7 +33,7 @@ body.page {
       }
 
       .right {
-        justify-content: flex-end;
+        @include justify-content(flex-end);
 
         a {
           font-size: 22px;

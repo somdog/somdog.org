@@ -1,7 +1,7 @@
 .benefits-matrix {
-  display: flex;
+  @include display(flex);
   padding-top: 30px;
-  flex-wrap: wrap;
+  @include flex-wrap(wrap);
 
   a {
     color: black;
