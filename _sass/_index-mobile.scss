@@ -5,10 +5,6 @@
         .right {
           display: none;
         }
-
-        a[href="/#about"] {
-          display: none;
-        }
       }
     }
 
@@ -42,8 +38,16 @@
   }
 }
 
-@media (max-width: 340px) {
+@media (max-width: 350px) {
   body.homepage {
+    .nav-wrapper {
+      nav {
+        a[href="/#about"] {
+          display: none;
+        }
+      }
+    }
+
     .hero {
       min-height: 900px;
     }
