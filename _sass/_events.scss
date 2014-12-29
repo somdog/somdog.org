@@ -1,0 +1,42 @@
+.events-matrix {
+  @include display(flex);
+  padding-top: 30px;
+  @include flex-wrap(wrap);
+
+  section {
+    padding: 15px;
+    margin-bottom: 13px;
+    flex-grow: 1;
+
+    &.spring-fling { background: #dcf8ed; }
+    &.pet-palooza { background: #fffae9; }
+    &.doggie-run { background: #dce2ed }
+    &.santa-paws { background: #f8dcdc }
+
+    h3 {
+      font-size: 36px;
+      line-height: 36px;
+      margin: 0;
+      border: 0;
+      padding: 0 0 10px 0;
+    }
+
+    h4 {
+      text-transform: uppercase;
+      margin: 0;
+      border: 0;
+      padding: 0;
+    }
+
+    h5 {
+      margin: 0;
+      border: 0;
+      padding: 0;
+    }
+
+    p {
+      margin: 15px auto 0;
+      max-width: 75%;
+    }
+  }
+}

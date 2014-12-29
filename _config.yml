@@ -9,3 +9,5 @@ twitter_username: somdog
 
 # Build settings
 markdown: kramdown
+
+exclude: ['vendor']
