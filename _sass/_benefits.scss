@@ -12,6 +12,7 @@
     padding: 15px;
     text-align: right;
     margin-bottom: 13px;
+    @include flex-basis(100%);
 
     &.crate-escape { background: #f0f8f8; }
     &.assembly-row { background: #f3f3f3; }
