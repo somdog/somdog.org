@@ -14,6 +14,8 @@
     margin-bottom: 13px;
     @include flex-basis(100%);
 
+    &.two-dog-treats { background: #b5b5cb; }
+    &.dog-willing { background: #f3f3f3; }
     &.crate-escape { background: #f0f8f8; }
     &.assembly-row { background: #f3f3f3; }
     &.one-brick { background: #d7e7f2; }
