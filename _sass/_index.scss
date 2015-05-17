@@ -191,7 +191,8 @@ body.homepage {
         font-weight: 700;
       }
 
-      button.donate {
+      button.donate,
+      button.buy-tickets {
         padding: 16px 22px 18px;
         margin: 20px;
         background: #e14604;
@@ -205,10 +206,22 @@ body.homepage {
         cursor: pointer;
         transition: background 0.33s;
 
+        a {
+          display: block;
+          color: inherit;
+          border: none;
+        }
+
         &:hover {
           background: #bf3d15;
           transition: background 0s;
         }
+      }
+
+      button.buy-tickets {
+        font-size: 16px;
+        padding: 8px 22px;
+        margin: 10px 0 0;
       }
 
       .mailing-list {
